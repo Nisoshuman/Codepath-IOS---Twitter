@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8F-8M-E4h">
-                                <rect key="frame" x="97" y="394" width="197" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8F-8M-E4h">
+                                <rect key="frame" x="133" y="394" width="124" height="56"/>
                                 <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="JLe-ys-A04"/>
@@ -41,6 +41,8 @@
                         <viewLayoutGuide key="safeArea" id="lTU-kc-XzY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="E8F-8M-E4h" firstAttribute="centerY" secondItem="KLM-Hu-zIl" secondAttribute="centerY" id="Fi0-kS-rlj"/>
+                            <constraint firstItem="E8F-8M-E4h" firstAttribute="centerX" secondItem="KLM-Hu-zIl" secondAttribute="centerX" id="I2J-9O-o2d"/>
                             <constraint firstItem="E8F-8M-E4h" firstAttribute="centerY" secondItem="KLM-Hu-zIl" secondAttribute="centerY" id="bnm-Hl-2Mh"/>
                             <constraint firstItem="E8F-8M-E4h" firstAttribute="centerX" secondItem="KLM-Hu-zIl" secondAttribute="centerX" id="nCg-3x-2po"/>
                         </constraints>
