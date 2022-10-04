@@ -16,15 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="4sh-Mj-UUQ">
-                                <rect key="frame" x="89" y="313" width="213" height="218"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Tdo-RO-Vbt">
+                                <rect key="frame" x="113" y="317" width="164" height="186"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="0.29847323889999999" green="0.61629873509999999" blue="0.92164188619999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="4sh-Mj-UUQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Enn-lf-84T"/>
-                            <constraint firstItem="4sh-Mj-UUQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="foN-Ll-xuS"/>
+                            <constraint firstItem="Tdo-RO-Vbt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ai2-ud-oKr"/>
+                            <constraint firstItem="Tdo-RO-Vbt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UOV-Q5-DiP"/>
+                            <constraint firstItem="Tdo-RO-Vbt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iaG-99-hQI"/>
+                            <constraint firstItem="Tdo-RO-Vbt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mbS-jx-ehH"/>
                         </constraints>
                     </view>
                 </viewController>

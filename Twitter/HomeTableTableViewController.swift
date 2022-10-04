@@ -2,7 +2,7 @@
 //  HomeTableTableViewController.swift
 //  Twitter
 //
-//  Created by Laura Parusel on 9/22/22.
+//  Created by Nisreen Shuman on 9/25/22.
 //  Copyright © 2022 Dan. All rights reserved.
 //
 
@@ -20,7 +20,14 @@ class HomeTableTableViewController: UITableViewController {
         loadTweet()
         myRefreshControl.addTarget(self, action: #selector(loadTweet), for: .valueChanged)
         tableView.refreshControl = myRefreshControl
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 150
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        self.loadTweet()
     }
     
     @objc func loadTweet(){
@@ -39,7 +46,7 @@ class HomeTableTableViewController: UITableViewController {
             self.myRefreshControl.endRefreshing()
             
         }, failure: { Error in
-            print("Could not retrieve tweets")
+            print("Could not retrieve tweets \(Error)")
         })
         
     }
@@ -65,6 +72,10 @@ class HomeTableTableViewController: UITableViewController {
         if let imageData = data {
             cell.profileImageView.image = UIImage(data: imageData)
         }
+        
+        cell.setFavorite(tweetarray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetarray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(tweetarray[indexPath.row]["retweeted"] as! Bool)
         
         return cell
     }
