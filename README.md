@@ -50,5 +50,5 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![twit 1](https://user-images.githubusercontent.com/98039848/193821441-7e858e2a-728f-4a92-b773-956de784a0a9.gif)
 
-![](https://i.imgur.com/EE1263j.gif)
